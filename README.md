@@ -4,9 +4,10 @@ A simple Streamlit web app that connects to you AWS account and audits your runn
 
 ---
 
-# 🚀 Demo 
+## 🚀 Demo 
 
 <img width="1138" height="250" alt="image" src="https://github.com/user-attachments/assets/6d3c94e1-bffb-4580-a663-f46cf1719342" />
+
 
 <img width="885" height="233" alt="image" src="https://github.com/user-attachments/assets/89990e1e-cd4d-4b3d-9a1d-f759ac263481" />
 
