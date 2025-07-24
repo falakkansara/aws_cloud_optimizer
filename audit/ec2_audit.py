@@ -6,7 +6,7 @@ cloudwatch = boto3.client('cloudwatch')
 
 def list_instances():
     instances = []
-    paginator = ec2.get_paginator('decribe_instances')
+    paginator = ec2.get_paginator('describe_instances')
     for page in paginator.paginate():
         for reservation in page['Reservations']:
             for instance in reservation['Instances']:

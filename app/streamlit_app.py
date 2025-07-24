@@ -1,6 +1,16 @@
 import streamlit as st
 import pandas as pd
+
+
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from audit import ec2_audit
 from audit.ec2_audit import get_ec2_report
+
+
 
 st.title("AWS EC2 Optimization Report")
 
@@ -17,3 +27,4 @@ else:
     if not low_cpu.empty:
         st.subheader("Underutilized Instances")
         st.dataframe(low_cpu)
+     
