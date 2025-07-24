@@ -23,7 +23,7 @@ def get_cpu_utilization(instance_id):
 
     metrics = cloudwatch.get_metric_statistics(
         Namespace = 'AWS/EC2',
-        MetricsName = 'CPUUtilization',
+        MetricName = 'CPUUtilization',
         Dimensions = [{'Name': 'InstanceId', 'Value': instance_id}],
         StartTime = start,
         EndTime = now,
@@ -38,7 +38,7 @@ def get_cpu_utilization(instance_id):
 def get_ec2_report():
     report = []
     for instance in list_instances():
-        cpu = get_cpu_utilization(instance['InstaceId'])
+        cpu = get_cpu_utilization(instance['InstanceId'])
         report.append({
             "instance_id": instance['InstanceId'],
             "type": instance['InstanceType'],
