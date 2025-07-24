@@ -9,9 +9,33 @@ A simple Streamlit web app that connects to you AWS account and audits your runn
 <img width="1138" height="250" alt="image" src="https://github.com/user-attachments/assets/6d3c94e1-bffb-4580-a663-f46cf1719342" />
 
 
+
+
+
 <img width="885" height="233" alt="image" src="https://github.com/user-attachments/assets/89990e1e-cd4d-4b3d-9a1d-f759ac263481" />
 
+
+
+
+
 Above you can see the corresponding output for no running instances. 
+
+
+
+
+<img width="1122" height="461" alt="image" src="https://github.com/user-attachments/assets/f7196ecd-f2bd-443d-a17c-ad60a232553a" />
+
+
+
+
+
+<img width="1194" height="186" alt="image" src="https://github.com/user-attachments/assets/2fa8f456-0f71-47ea-af61-216d96d36d56" />
+
+
+
+
+
+Above you can see an example output of one running instance. 
 
 ---
 
