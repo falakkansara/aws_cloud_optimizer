@@ -75,7 +75,9 @@ Above you can see an example output of one running instance.
     - app (folder)
         - __init__.py (file)
         - streamlit_app.py (file)
-3. To run, type: streamlit run app/streamlit_app.py
+3. To run:
+    - For AWS CLI permissions, type: aws sso login. This will open a browser to log into your account and grant your terminal access. 
+    - Then to run the app itself, type: streamlit run app/streamlit_app.py
 
 ---
 
@@ -83,3 +85,5 @@ Above you can see an example output of one running instance.
 
 If there are no running instances, you will see:
 "No data found or no running instance." 
+
+In the case you do have underutilized instances, you will see another table containing the underutilized instances seperating them from all instances. 
